@@ -1,0 +1,39 @@
+# options specified here will apply to all posts in this folder
+
+# Freeze computed outputs
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Enable CC licence appendix
+license: "CC BY"
+
+# Default for table of contents
+toc: true
+toc-title: Table of contents
+toc-location: left
+
+# Default knitr options
+execute:
+  echo: true
+  message: true
+  warning: true
+
+# Default author
+author:
+  - name: Jessica Hoehner
+    github: https://github.com/jessmhoehner
+    data science blog: [add here]
+    affiliation: Excella, Inc.
+    affiliation-url: https://www.excella.com
+    orcid: 0000-0002-9536-8961
+
+# Default fields for citation
+citation: true
+
+# blog format
+format:
+  html:
+    theme: vapor
+    css: styles.css

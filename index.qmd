@@ -1,0 +1,16 @@
+---
+title: "jblog"
+subtitle: |
+date: 2024-04-04
+listing:
+  feed: true
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  page-size: 100
+  categories: true
+page-layout: full
+title-block-banner: true
+citation: true
+---
