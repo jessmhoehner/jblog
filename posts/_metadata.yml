@@ -24,7 +24,7 @@ execute:
 author:
   - name: Jessica Hoehner
     github: https://github.com/jessmhoehner
-    data science blog: [add here]
+    #data science blog: [add here]
     affiliation: Excella, Inc.
     affiliation-url: https://www.excella.com
     orcid: 0000-0002-9536-8961
@@ -35,5 +35,5 @@ citation: true
 # blog format
 format:
   html:
-    theme: vapor
+    theme: minty
     css: styles.css

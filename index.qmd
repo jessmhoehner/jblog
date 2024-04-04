@@ -3,7 +3,7 @@ title: "jblog"
 subtitle: |
 date: 2024-04-04
 listing:
-  feed: true
+  #feed: true
   contents: posts
   sort: "date desc"
   type: grid

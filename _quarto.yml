@@ -1,21 +1,18 @@
 project:
   type: website
-  resources:
-    - CNAME
+#  resources:
 
 website:
   title: "explorations, experiments, excitement"
   description: "A blog by Jessica Hoehner"
-  site-url: [add here]
-  repo-url: https://github.com/jessmhoehner/blog
+ #  site-url: [add here]
+  repo-url: https://github.com/jessmhoehner/jblog
   open-graph: true
   search: false
-  twitter-card:
-    creator: "@jessmhoehner"
-    card-style: summary_large_image
+
   navbar:
     title: false
-    background: "#eee"
+    background: "#9cceb6"
     left:
       - href: index.qmd
         text: Home
@@ -24,23 +21,22 @@ website:
     right:
       - text: Sites
         menu:
-        - href: [add link to homepage here]
-          text: Welcome!
-        - href: [add link to blog here]
-          text: blog
+       # - href: [add link to homepage here]
+       #   text: Welcome!
+       # - href: [add link to blog here]
+       #  text: blog
         - href: https://github.com/jessmhoehner
           text: GitHub 
         - href: https://orcid.org/0000-0002-9536-8961
           text: Publications
         - href: https://www.linkedin.com/in/jessmhoehner/
           text: LinkedIn
-  page-footer:
-    center:
-      - href: [add link to blog here]
-        text: blog
+ #  page-footer:
+ #   center:
+     # - href: [add link to blog here]
+     #   text: blog
 
 format:
   html:
-    theme: new_vapor.scss
+    theme: minty
     css: styles.css
-    include-after-body: plausible.html
