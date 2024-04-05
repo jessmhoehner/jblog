@@ -32,8 +32,9 @@ of YAML, CSS, and even Makefiles.
 It was just today that I discovered Danielle Navarro's 
 [blog](https://blog.djnavarro.net) and this absolutely shamelessly has been 
 built upon hers with great reverence and equally as much inspiration from 
-[Jenny Bryan](https://jennybryan.org/about/), [Julia Silge](https://juliasilge.com/blog/), 
-and most of all the incredible people and incredible scientists at the [Human Rights Data Analysis Group](https://hrdag.org/tech-corner/).
+[Jenny Bryan](https://jennybryan.org/about/), [Julia Silge](https://juliasilge.com/blog/),
+[Joy Buolamwini](https://poetofcode.com) (I'm seeing a pattern here...),and most of all the incredible people 
+and scientists at the [Human Rights Data Analysis Group](https://hrdag.org/tech-corner/).
 
 My intent is to rediscover the fun I had with my Xanga and MySpace pages 
 and explore techniques, skills, and data science related topics I enjoy today. 
