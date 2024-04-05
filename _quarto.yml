@@ -6,13 +6,15 @@ website:
   title: "explorations, experiments, excitement"
   description: "A blog by Jessica Hoehner"
  #  site-url: [add here]
-  repo-url: https://github.com/jessmhoehner/jblog
+  repo-subdir: https://github.com/jessmhoehner/jblog
   open-graph: true
-  search: false
+  search: true
+  reader-mode: true
 
   navbar:
     title: false
-    background: "#9cceb6"
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -20,18 +22,20 @@ website:
         text: RSS
     right:
       - text: Sites
+      - icon: github
         menu:
-       # - href: [add link to homepage here]
-       #   text: Welcome!
-       # - href: [add link to blog here]
-       #  text: blog
-        - href: https://github.com/jessmhoehner
-          text: GitHub 
-        - href: https://orcid.org/0000-0002-9536-8961
-          text: Publications
-        - href: https://www.linkedin.com/in/jessmhoehner/
-          text: LinkedIn
- #  page-footer:
+        - text: GitHub landing page
+            url: https://github.com/jessmhoehner
+         - text: blog Source Code
+            url: https://github.com/jessmhoehner/jblog
+      - href: https://orcid.org/0000-0002-9536-8961
+         text: Publications
+      - href: https://www.linkedin.com/in/jessmhoehner/
+         text: LinkedIn
+ page-footer: "Copyright 2024, Jessica Hoehner"
+     background: primary
+     
+ reader-mode: true
  #   center:
      # - href: [add link to blog here]
      #   text: blog

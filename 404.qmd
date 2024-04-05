@@ -1,0 +1,10 @@
+---
+title: "404 Error"
+---
+
+Oops! This page no longer exists. 
+
+You may try seraching for the page using the search bar or noting it as an issue [here](https://github.com/jessmhoehner/jblog/issues).
+
+Here's a cat for your trouble:
+---
